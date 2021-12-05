@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Quicksand', sans-serif;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #091921;
+}
+
+.icons{
+margin-top: 20px;
+margin-left: -40px;
+display: flex;
+justify-content: space-evenly;
+}
+.icon{
+width: 50px;
+height: 50px;
+border-radius:50%;
+background:#000;
+border: 2px solid rgb(117, 48, 167);
+}
+
+.skills__list{
+row-gap: 1.5rem;
+padding-left: 2.7rem;
+width: 68%;
+margin: 0 15px;
+}
+.skills__titles{
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+
+.skills__name{
+font-weight:600;
+color:#ddd;
+}
+.skills_bar,
+.skills__percentage{
+height: 5px;
+border-radius: 0.25rem;
+}
+.skills_bar{
+background-color:hsl(200, 19%, 25%);
+}
+.skills__percentage{
+display: block;
+background-color:#ddd;
+}
+.skills__html{
+width: 90%;
+}
+.skills__css{
+width: 80%;
+}
+.skills__js{
+width: 98%;
+}
+.skills__react{
+width: 85%;
+}
+.skills__titles span{
+color:#000;
+}
+.skills__open .skills__list{
+height: 0;
+overflow: hidden;
+}
+.skills__open .skills__list{
+height: 100%;
+margin-bottom:2rem;
+}
+.skills__number{
+color: #ddd !important;
+margin: 0 -35px;
+}
+
+.uil{
+width: 40px;
+height: 40px;
+border-radius:50%;
+color: #ddd;
+margin:9px  7.5px !important;
+font-size: 2.1rem;
+}
+h2{
+color: #fff;
+}
+.container
+{
+width: 30rem;
+height: 35rem;
+position: relative;
+background: #994cd8cb;
+border-radius: 15px;
+overflow: hidden;
+backdrop-filter: blur(85px);
+border: 1px solid #ddd;
+
+}
+.container .main-item
+{
+margin-top: 32px !important;
+width: 25rem;
+height: 30rem;
+position: relative;
+background:url('https://wallpapercave.com/wp/wp6127354.jpg');
+border-radius: 10px;
+overflow: hidden;
+border-left:20px;
+backdrop-filter: blur(15px);
+
+margin: auto;
+
+}
+.main-item h1{
+    margin: 40px 55px !important;
+}
+.main-item p{
+    margin: 10px 55px !important;
+}
+.main-item h1, .main-item p{
+    
+color:#ddd;
+margin:0 55px;
+}
+.main-item h4{
+    color:#ddd;
+    margin: 20px 55px;
+}
+.images{
+    margin:0  50px;
+}
+.images img{
+    border-radius: 5px;
+    margin: 5px;
+    width: 45px ;
+    height: 45px;
+}
